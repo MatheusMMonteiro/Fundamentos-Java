@@ -17,4 +17,17 @@ Esse tipo de arquitetura é uma abordagem para escrever programas de software. O
 - Facilidade de manutenção. Sendo mais fácil de entender um erro pelo fato de um serviço ser restrito apenas a um recurso
 - Liberdade de escolha de tecnologias, ferramentas ou estruturas dentro de um serviço
 
-## Herança e Polimorfismo
+## Pilares da POO
+
+### Abstração
+É utilizada para a definição de entidades do mundo real. Sendo onde são criadas as classes. Essas entidades são consideradas tudo que é real, tendo como consideração as suas características e ações. Como exemplo: a entidade sendo o Carro, a característica sendo seu tipo, cor e tamanho e ações sendo acelerar, ligar
+
+### Encapsulamento 
+É o processo utilizado para proteger os campos e operações de uma classe (atributos e métodos), permitindo apenas aos membros públicos de serem acessados. Como por exemplo os métodos GET/SET sendo acessados por usuários da mesma classe.
+
+### Herança
+A herança é um princípio que permite criar uma nova classe a partir de uma já existente. ... A principal vantagem da herança é a capacidade para definir novos atributos e métodos para a subclasse, que se somam aos atributos e métodos herdados.
+
+### Polimorfismo
+Polimorfismo é o princípio pelo qual duas ou mais classes derivadas de uma mesma superclasse podem invocar métodos que têm a mesma identificação, assinatura, mas comportamentos distintos, especializados para cada classe derivada, usando para tanto uma referência a um objeto do tipo da superclasse. 
+Como por exemplo o método calcularVelocidade().  Ele pode ser usado pela classe carro() e pela classe moto(), são métodos com a mesma identificação mas com comportamentos diferentes.
