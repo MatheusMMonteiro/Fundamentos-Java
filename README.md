@@ -66,3 +66,12 @@ Design Patterns ou padrões de projetos são soluções generalistas para proble
 ### MVC - Model-View-Controller
 O princípio básico do MVC é a divisão da aplicação em três camadas: a camada de interação do usuário [View], a camada de manipulação dos dados [Model] e a camada de controle [Controller].
 
+## API REST
+API REST é uma interface que fornece dados em um formato padronizado baseado em requisições HTTP. Sendo multiplataforma Elas utilizam verbos/métodos para definir qual é a finalidade da requisição que está sendo enviada. GET/POST/PUT/DELETE
+
+E que APIs REST se comunicam através de um requisição HTTP trocando dados em formato JSON.
+## ORM
+Mapeamento objeto-relacional é uma técnica de muito utilizada para converter dados entre bancos relacionais e linguagens orientadas a objeto
+## Depenciias
+
+O Hibernate é de fato o framework ORM, ou seja, a implementação física do que você usará para persistir, remover, atualizar ou buscar dados no SGBD. Por outro lado, o JPA é uma camada que descreve uma interface comum para frameworks ORM.
