@@ -25,6 +25,25 @@ E acoplamento se refere ao quanto um classe depende de outra para funcionar
 
 Um código com alta coesão e baixo acoplamento, é um código com mais facilidade de manutenção e mudança no negócio.
 
+### Princípios SOLID
+SOLID é um acrônimo dos cinco primeiros princípios da programação orientada a objetos e design de código
+
+#### S - Single-resposity principle 
+Uma entidade ou classe, tem uma única responsabilidade. Um software com baixo acoplamento.
+
+#### O - Open-closed principle
+Você deve ser capaz de estender um comportamento de uma classe, sem modificá-lo.
+
+#### L - Liskov Substuition Principle
+Um objeto ou instância de uma sub-classe tem que conseguir substituir o objeto herdado da sua classe(pai) principal
+
+#### I - Interface Segregation Principal
+Classes não devem depender de métodos que não usam implemetando de interfaces
+
+#### D - Dependecy Inversion Principle
+Um módulo não deve depender de detalhes de implementação mas sim de uma abstração(interface).
+
+
 ## Arquitetura de Microsserviços
 Esse tipo de arquitetura é uma abordagem para escrever programas de software. Onde a aplicação é dividida em diversos componentes mínimos e independentes, sendo cada serviço.
 
