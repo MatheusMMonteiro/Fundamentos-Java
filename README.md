@@ -32,7 +32,7 @@ SOLID é um acrônimo dos cinco primeiros princípios da programação orientada
 Uma entidade ou classe, tem uma única responsabilidade. Um software com baixo acoplamento.
 
 #### O - Open-closed principle
-Você deve ser capaz de estender um comportamento de uma classe, sem modificá-lo.
+Você deve ser capaz de estender um comportamento de uma classe, sem modificá-lo. - Classes abertas para extensão, mas fechadas para modificação.
 
 #### L - Liskov Substuition Principle
 Um objeto ou instância de uma sub-classe tem que conseguir substituir o objeto herdado da sua classe(pai) principal
